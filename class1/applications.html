@@ -3,19 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Applications</title>
   </head>
-
   <body>
-    <a href="index.html">Home</a>
-    <a href="info/about.html">About me</a>
-    <a href="applications.html">Submit an application</a>
-    <h1>Submit an application</h1>
+    <a href="index.html" class="nav">Home</a>
+    <a href="info/about.html" class="nav">About me</a>
+    <a href="applications.html" class="nav">Submit an application</a>
+    <h1 class="title">Submit an application</h1>
     <form action="#">
-      <input type="text" placeholder="Enter your name" /><br />
-      <input type="email" placeholder="Efnter your email" /><br />
-      <button type="submit">Submit</button>
-      <button type="reset">Cancel</button>
+      <input
+        type="text"
+        class="app-input"
+        placeholder="Enter your name"
+      /><br />
+      <input
+        type="email"
+        class="app-input"
+        placeholder="Enter your email"
+      /><br />
+      <button type="submit" class="app-button">Submit</button>
+      <button type="reset" class="app-button">Cancel</button>
     </form>
   </body>
 </html>
